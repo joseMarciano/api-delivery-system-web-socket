@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    host: ${rabbitmq.url}
+    port: ${rabbitmq.port}
+    username: ${rabbitmq.username}
+    password: ${rabbitmq.password}
